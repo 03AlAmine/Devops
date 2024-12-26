@@ -1,0 +1,275 @@
+#devops-advantages a:hover {
+  text-decoration: none;
+}
+#devops-advantages-header {
+  height: 80vh;
+}
+
+#devops-advantages-header h1 {
+  margin: 0 0 10px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+#devops-advantages-header h2 {
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+#devops-advantages-header .btn {
+  font-size: 16px;
+  transition: 0.5s;
+  padding: 10px 28px 11px;
+}
+#about .card {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  padding: 15px;
+}
+#about img {
+  transition: 0.3s ease-in-out;
+  border-radius: 50%;
+  width: 200px !important;
+}
+#about .card:hover {
+  transform: translateY(-10px);
+}
+#about .job {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+  font-weight: 500;
+  color: #1176a0;
+  font-style: italic;
+}
+#about .job:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #cbd6e9;
+  bottom: 0;
+  left: 0;
+}
+#about .description {
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+#about .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#about .social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  background-color: #f8f9fa;
+  border: 1px solid #8259cf;
+  margin-right: 8px;
+}
+#about .social a i {
+  color: #8259cf;
+  font-size: 23px;
+  margin: 0 2px;
+}
+#about .social a:hover i {
+  color: #e51114;
+}
+#about .social a + a {
+  margin-left: 8px;
+}
+@media (max-width: 991px) {
+  #devops-advantages-header {
+    height: 100vh;
+    text-align: center;
+  }
+  #devops-advantages-header .animated {
+    animation: none;
+  }
+  #devops-advantages-header .devops-advantages-header-img {
+    text-align: center;
+  }
+  #devops-advantages-header .devops-advantages-header-img img {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  #devops-advantages-header h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #devops-advantages-header h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #devops-advantages-header .devops-advantages-header-img img {
+    width: 70%;
+  }
+}
+@media (max-width: 575px) {
+  #devops-advantages-header .devops-advantages-header-img img {
+    width: 80%;
+  }
+  #devops-advantages-header .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px;
+  }
+  #devops-advantages-header .btn-watch-video {
+    font-size: 16px;
+    padding: 10px 0 8px 40px;
+    margin-left: 20px;
+  }
+  #devops-advantages-header .btn-watch-video i {
+    font-size: 32px;
+    top: 7px;
+  }
+}
+#about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+#about .content ul {
+  list-style: none;
+  padding: 0;
+}
+#about .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+#about .content ul li + li {
+  margin-top: 10px;
+}
+#about .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #313131;
+  line-height: 1;
+}
+#about .content p:last-child {
+  margin-bottom: 0;
+}
+.devops-advantages-bg-alt {
+  background-color: #f2f4f6;
+}
+.devops-advantages-bg {
+  background-color: #f9fafb;
+}
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  position: relative;
+}
+.section-title h2:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 2px;
+  background: #d6d6d6;
+  bottom: -10px;
+  left: calc(50% - 80px);
+}
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: #3fc4ff;
+  bottom: -11px;
+  left: calc(50% - 20px);
+}
+#devops-advantages .content p {
+  font-size: 15px;
+}
+#devops-advantages .img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+#devops-advantages .accordion-list .accordion-item {
+  margin-top: 15px;
+  padding: 20px;
+  border: 1px solid #d8e1e8;
+  box-shadow: 0 2px 6px #d8e1e8;
+  -webkit-box-shadow: 0 2px 6px #d8e1e8;
+  -moz-box-shadow: 0 2px 6px #d8e1e8;
+  border-radius: 4px;
+}
+#devops-advantages .accordion-list .accordion-item a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-right: 30px;
+  outline: none;
+  text-decoration: none;
+}
+#devops-advantages .accordion-list span {
+  color: #8259cf;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+@media (max-width: 1024px) {
+  #devops-advantages .accordion-list,
+  #devops-advantages .content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #devops-advantages .img {
+    min-height: 400px;
+  }
+  #devops-advantages .content {
+    padding-top: 30px;
+  }
+  #devops-advantages .accordion-list {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 575px) {
+  #devops-advantages .img {
+    min-height: 200px;
+  }
+}
+#devops-advantages-articles .card .card-body {
+  padding: 50px 30px;
+  border: 0;
+  min-height: 285px;
+}
+#devops-advantages-articles .card-body .icon {
+  margin-bottom: 10px;
+}
+#devops-advantages-articles .card-body .icon i {
+  color: #8259cf;
+  font-size: 36px;
+  transition: 0.3s;
+}
+#devops-advantages-articles .card-body h3 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+#devops-advantages-articles .card-body h3 a {
+  color: #8259cf;
+}
+#devops-advantages-articles .card-body p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+#devops-advantages-articles .card-body:hover h3 a {
+  color: #8259cf;
+}
