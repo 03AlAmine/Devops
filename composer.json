@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "promphp/prometheus_client_php": "^2.12"
+    }
+}
